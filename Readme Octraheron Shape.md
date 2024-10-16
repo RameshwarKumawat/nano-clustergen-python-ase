@@ -25,10 +25,10 @@ The script generates clusters based on the configuration provided in the cluster
 Example Configuration:
 In the script, clusters are defined as:
 
-clusters = [
+```clusters = [
     {'atoms': 140, 'length': 6, 'cutoff': 1, 'filename': 'optimized_cluster_140.xyz'},
     {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
-]
+]```
 
 atoms: Number of atoms in the cluster.
 length: The length of the octahedron's edge.
@@ -42,7 +42,7 @@ python cluster_generator.py
 
 This will generate and optimize clusters based on the configurations defined in the script. The optimized structures will be saved in XYZ format with filenames like optimized_cluster_140.xyz.
 
-Example Output
+**Example Output**
 The script generates an optimized atomic structure and saves it to a file like optimized_cluster_140.xyz. This file contains the atomic positions after optimization and can be visualized using various molecular visualization tools (such as VMD or ASE's ase-gui).
 
 Extending the Script
