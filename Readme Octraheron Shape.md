@@ -34,6 +34,7 @@ atoms: Number of atoms in the cluster.
 length: The length of the octahedron's edge.
 cutoff: Cutoff used for truncating the octahedron.
 filename: Output filename in XYZ format.
+
 You can modify the script to generate and optimize different cluster sizes by changing the parameters.```
 
 **Running the Script**
@@ -54,6 +55,7 @@ clusters = [
 ]
 
 **Visualization**
+
 Once you generate the XYZ files, you can visualize them using any molecular viewer that supports XYZ format, such as:
 
 **ase-gui**
@@ -64,8 +66,10 @@ Once you generate the XYZ files, you can visualize them using any molecular view
 ase-gui optimized_cluster_140.xyz
 
 **Acknowledgments**
+
 ASE: Atomic Simulation Environment
 EMT: Effective Medium Theory, a simple model used for metallic bonding.
 
 **License**
+
 This project is licensed under the MIT License. See the LICENSE file for details.
