@@ -37,9 +37,8 @@ filename: Output filename in XYZ format.
 You can modify the script to generate and optimize different cluster sizes by changing the parameters.```
 
 **Running the Script**
-To run the script:
 
-python cluster_generator.py
+To run the script: python cluster_generator.py
 
 This will generate and optimize clusters based on the configurations defined in the script. The optimized structures will be saved in XYZ format with filenames like optimized_cluster_140.xyz.
 
