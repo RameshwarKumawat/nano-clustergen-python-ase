@@ -1,6 +1,6 @@
 # Cluster Generator using ASE and EMT Calculator
 
-This project generates and optimizes atomic clusters using the **Atomic Simulation Environment (ASE)**. Specifically, it creates truncated octahedron clusters of silver (Ag) atoms, optimizes them using the **Effective Medium Theory (EMT)** calculator, and outputs the resulting structures in XYZ format.
+This project generates and optimizes atomic clusters using the **Atomic Simulation Environment (ASE)**. Specifically, it creates **cubooctahedron (cubo)** clusters of silver (Ag) atoms, optimizes them using the **effective-medium theory (EMT)** calculator, and outputs the resulting structures in XYZ format.
 
 ## Features
 - Generate clusters of atoms based on the **Octahedron** shape.
@@ -28,7 +28,7 @@ In the script, clusters are defined as:
 
 clusters = [
     {'atoms': 140, 'length': 6, 'cutoff': 1, 'filename': 'optimized_cluster_140.xyz'},
-#    {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
+    {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
 ]
 
 atoms: Number of atoms in the cluster.
