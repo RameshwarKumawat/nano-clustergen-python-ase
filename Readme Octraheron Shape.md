@@ -56,9 +56,9 @@ clusters = [
 **Visualization**
 Once you generate the XYZ files, you can visualize them using any molecular viewer that supports XYZ format, such as:
 
-``ase-gui```
-```VMD```
-```Avogadro```
+**ase-gui**
+**VMD**
+**Avogadro**
 **To visualize with ASE:**
 
 ase-gui optimized_cluster_140.xyz
