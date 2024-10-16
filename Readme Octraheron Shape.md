@@ -28,13 +28,13 @@ In the script, clusters are defined as:
 ```clusters = [
     {'atoms': 140, 'length': 6, 'cutoff': 1, 'filename': 'optimized_cluster_140.xyz'},
     {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
-]```
+]
 
 atoms: Number of atoms in the cluster.
 length: The length of the octahedron's edge.
 cutoff: Cutoff used for truncating the octahedron.
 filename: Output filename in XYZ format.
-You can modify the script to generate and optimize different cluster sizes by changing the parameters.
+You can modify the script to generate and optimize different cluster sizes by changing the parameters.```
 
 **Running the Script**
 To run the script:
