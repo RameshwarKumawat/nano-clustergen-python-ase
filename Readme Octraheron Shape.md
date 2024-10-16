@@ -17,8 +17,7 @@ To run this project, you'll need the following Python packages:
 
 You can install ASE using pip:
 
-```bash
-pip install ase```
+```pip install ase```
 
 Script: cluster_generator.py
 The script generates clusters based on the configuration provided in the clusters list and optimizes them. Each cluster is defined by the number of atoms, the length of the octahedron's edge, and a cutoff parameter.
@@ -26,10 +25,10 @@ The script generates clusters based on the configuration provided in the cluster
 Example Configuration:
 In the script, clusters are defined as:
 
-```clusters = [
+clusters = [
     {'atoms': 140, 'length': 6, 'cutoff': 1, 'filename': 'optimized_cluster_140.xyz'},
     {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
-]```
+]
 
 atoms: Number of atoms in the cluster.
 length: The length of the octahedron's edge.
