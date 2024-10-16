@@ -25,7 +25,7 @@ The script generates clusters based on the configuration provided in the cluster
 Example Configuration:
 In the script, clusters are defined as:
 
-```clusters = [
+clusters = [
     {'atoms': 140, 'length': 6, 'cutoff': 1, 'filename': 'optimized_cluster_140.xyz'},
     {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
 ]
@@ -53,19 +53,19 @@ clusters = [
     {'atoms': 38, 'length': 4, 'cutoff': 1, 'filename': 'optimized_cluster_38.xyz'},
 ]
 
-Visualization
+**Visualization**
 Once you generate the XYZ files, you can visualize them using any molecular viewer that supports XYZ format, such as:
 
-ase-gui
-VMD
-Avogadro
-To visualize with ASE:
+``ase-gui```
+```VMD```
+```Avogadro```
+**To visualize with ASE:**
 
 ase-gui optimized_cluster_140.xyz
 
-Acknowledgments
+**Acknowledgments**
 ASE: Atomic Simulation Environment
 EMT: Effective Medium Theory, a simple model used for metallic bonding.
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
