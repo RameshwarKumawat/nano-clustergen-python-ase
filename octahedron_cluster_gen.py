@@ -1,6 +1,6 @@
 # Script prepared by Dr. Rameshwar L. Kumawat, Postdoctoral Researcher at Northwestern University
 # This script generates Octahedron clusters of any element with a desired number of atoms
-# Date: 07/03/2025
+# Date: 07/03/2024
 
 ## Cluster Generator using ASE and EMT Calculator
 from ase.calculators.emt import EMT
