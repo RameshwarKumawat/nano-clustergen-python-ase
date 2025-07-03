@@ -1,6 +1,6 @@
 '''Python script to generate Iocsahedron shape silver nanoparticles'''
 # Script prepared by Dr. Rameshwar L. Kumawat, Postdoctoral Researcher at Northwestern University
-# This script generates nanocube clusters of any element in the FCC(111) phase with a desired number of atoms
+# This script generates Icosahedron clusters of any element with a desired number of atoms
 # Date: 07/03/2024
 
 from ase.cluster import Icosahedron
